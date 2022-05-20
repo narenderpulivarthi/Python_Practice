@@ -29,7 +29,7 @@ bacon + 1
 (The bacon value would be 20)
 7. What should the following two expressions evaluate to?
 
-'spam' + 'spamspam' (Error)
+'spam' + 'spamspam' (spamspamspam)
 'spam' * 3 (spamspamspam)
 
 8. Why is eggs a valid variable name while 100 is invalid?
