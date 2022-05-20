@@ -66,13 +66,36 @@ else:
 
 
 10. What keys can you press if your program is stuck in an infinite loop?
+(Ctrl-C)
 
 11. What is the difference between break and continue?
+(Once the break is encountered, the program completely exits from the loop. Whereas, when the continue is encountered
+the program execution jumps back to the start of the loop and reevaluates the loop's condition)
 
 12. What is the difference between range(10), range(0, 10), and range(0, 10, 1) in a for loop?
+(range(10) executes 10 iterations starting from 0 and ends at 9.
+ range(0,10)-> here the range has the starting point and the ending point specifically and it will be useful when the
+ starting point is not from 0.
+ range(0,10,1)-> the first two arguments convey the starting and the ending point with specification. The third argument produces
+ the sequence of numbers for the iteration.
+)
 
-13. Write a short program that prints the numbers 1 to 10 using a for loop. Then write an equivalent program that prints the numbers 1 to 10 using a while loop.
+
+13. Write a short program that prints the numbers 1 to 10 using a for loop. Then write an equivalent program 
+that prints the numbers 1 to 10 using a while loop.
+
+for num in range(1, 11):
+    print(num)
+
+num = 1
+while num < 11:
+    print(num)
+    num = num + 1
 
 14. If you had a function named bacon() inside a module named spam, how would you call it after importing spam?
 
-Extra credit: Look up the round() and abs() functions on the internet, and find out what they do. Experiment with them in the interactive shell.
+import spam
+meet = spam.bacon()
+
+Extra credit: Look up the round() and abs() functions on the internet, and find out what they do. 
+Experiment with them in the interactive shell.
