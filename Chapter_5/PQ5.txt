@@ -27,4 +27,4 @@ if 'color' not in spam:
 )
 
 8. What module and function can be used to “pretty print” dictionary values?
-( pprint module and pprint() function)
+( pprint module and pprint() function )
